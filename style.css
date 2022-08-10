@@ -1,0 +1,118 @@
+body {
+  background-color: #f5f5fa;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  color: #7F7CAF;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: #28587B;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  color: #466F8E;
+  font-size: 23px;
+  letter-spacing: 3px;
+}
+
+h3 {
+  color: #466F8E;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+#profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#button {
+  border-radius: 5%;
+  padding: 10px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #7371FC;
+  background-color:#E5D9F2;
+}
+
+#button:hover {
+  text-decoration: underline;
+  color: #E5D9F2;
+  background-color: #7371FC;
+  transition-duration: 2s;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.card {
+  background-color: #eee8f5;
+  border-radius: 3%;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#footer {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1;
+  color: #7F7CAF;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
